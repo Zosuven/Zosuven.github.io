@@ -1,16 +1,16 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
+title: "tutu's book"
+description: "tutu's thinking"
+keywords: 'lecture notes, ideas, blogs'
 url: 'https://tutu.sibeliusp.com' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  home: '/'
+  tags: '/tags.html'
+  timeline: '/timeline.html'
+  about: '/about.html'
+  links: '/friendLink.html'
 
 # 博主
 author: true
@@ -26,27 +26,15 @@ portraits: '/assets/tutu.jpg' # your portraits image file path
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:gaoxiaohanemily@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
-  weibo: ''
-  instagram: ''
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
+
 
 # 分页
-paginate: 2
+paginate: 3
 paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2019
 
 # Markdown
 markdown: kramdown
@@ -59,7 +47,9 @@ pygmentsTheme: 'default'
 
 # 友情链接
 friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+  bobo's_home_page: 'https://sibeliusp.com'
+  bobo's_lecture_notes: 'https://notes.sibeliusp.com'
+  bobo's_blogs: 'https://blog.sibeliusp.com'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
