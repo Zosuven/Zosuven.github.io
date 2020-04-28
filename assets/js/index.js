@@ -467,9 +467,9 @@
                     'from { width:' + Trex.config.WIDTH + 'px }' +
                     'to { width: ' + this.dimensions.WIDTH + 'px }' +
                     '}';
-                
-                // create a style sheet to put the keyframe rule in 
-                // and then place the style sheet in the html head    
+
+                // create a style sheet to put the keyframe rule in
+                // and then place the style sheet in the html head
                 var sheet = document.createElement('style');
                 sheet.innerHTML = keyframes;
                 document.head.appendChild(sheet);
@@ -796,6 +796,9 @@
 
             // Reset the time clock.
             this.time = getTimeStamp();
+
+            // redirect to home page
+            window.location.replace("https://tutu.sibeliusp.com/ind.html");
         },
 
         stop: function () {
