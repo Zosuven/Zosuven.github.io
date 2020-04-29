@@ -798,7 +798,7 @@
             this.time = getTimeStamp();
 
             // redirect to home page
-            window.location.replace("https://tutu.sibeliusp.com/ind.html");
+            window.location.replace("https://tutu.sibeliusp.com/index/");
         },
 
         stop: function () {
