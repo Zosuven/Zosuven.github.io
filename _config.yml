@@ -27,6 +27,8 @@ SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:gaoxiaohanemily@gmail.com'
 
+plugins:
+- jekyll-paginate
 
 # 分页
 paginate: 3
