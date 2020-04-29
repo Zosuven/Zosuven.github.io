@@ -32,7 +32,7 @@ plugins:
 
 # 分页
 paginate: 3
-paginatepath: /index/page:num/
+paginatepath: "/index/page:num/"
 
 # since
 footer:
