@@ -29,9 +29,7 @@
       </div>
     {% endif %}
   {% endif %}
-  <nav>
-    {:toc}
-  </nav>
+  {% include toc.html %}
   <!-- 文章内容 -->
   {{ page.content }}
   <!-- 引入share模块 -->
